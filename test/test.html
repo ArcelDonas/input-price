@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test input price</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <style>
+    .test {
+      position: relative;
+      width: 0;
+    }
+    .test > span {
+      position: absolute;
+      left: -7px;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 offset-3">
+        <form action="">
+          <div class="form-group">
+            <label for="input1">Type your text here</label>
+            <input type="text" class="input-arcel form-control" id="input1" placeholder="type your text here">
+            <small id="emailHelp" class="input-arcel form-text text-muted">Where your text should be typed</small>
+          </div>
+        </form>
+        <form action="" name="test">
+          <input type="text" class="input-arcel" name="test1" value="value1" placeholder="Votre prix ici" id="test">
+          <input type="text" class="input-arcel" name="test2" value="value2">
+          <input type="text" class="input-arcel" name="test3" value="value3">
+          <input type="text" class="input-arcel" name="test4" value="value4">
+          <form action="" name="test2">
+            <input type="text" class="input-arcel" class="other" name="othertest1" value="otherValue1">
+            <input type="text" class="input-arcel" class="other" name="othertest2" value="otherValue2">
+            <input type="text" class="input-arcel" class="other" name="othertest3" value="otherValue3">
+          </form>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../inputPrice.js?v=1.0.0"></script>
+  <script>
+    $(document).ready(function() {
+      $('.input-arcel').inputPrice(' ');
+
+    });
+  </script>
+</body>
+</html>
