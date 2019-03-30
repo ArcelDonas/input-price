@@ -37,6 +37,7 @@ class InputPrice
                         .on('keydown', this._onKeyDown.bind(this))
                         .on('keyup', this._onKeyUp.bind(this))
                         .removeAttr('id')
+                        .removeAttr('name')
                         .on('change', function() { this.orignalElement.get(0).dispatchEvent(new Event('change')) }.bind(this))
                         .val(this._stringHepler.formatPrice(this.orignalElement.val(), this._milleSeparator));
 
