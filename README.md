@@ -21,7 +21,9 @@ Anyway, some of these attributes can are changed
 - `id` attribute is removed. (To avoid have 2 same id on your page)
 
 # Cautions
-Since `id` attribute is removed on the new input which is displayed on your page (the clone input) and `type` changed into `number`, ensure your original input style is not only based on it `id` (mean `#yourInputId {...}` in your *css* file), same for the `type` attribue (mean `input[type="yourOriginalType"] {...}` or in this particular case ensure both rules are applied on `input[type=["number"]`. If you uses some basically toolkit such as *Bootstrap*, you don't have to care about that.
+Since `id` attribute is removed from the new input which is displayed on your page (the cloned input) and `type` changed to `number`, ensure your original input style is not only based on it `id` (mean `#yourInputId {...}` in your *css* file), same for the `type` attribue (mean `input[type="yourOriginalType"] {...}` or in this particular case ensure both rules are applied on `input[type=["number"]`. If you uses some basically toolkit such as *Bootstrap*, you don't have to care about that.
 
+# See it in action
+See it in cation via this link
 
 ENJOY :-)
