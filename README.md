@@ -33,5 +33,7 @@ Anyway, some of these attributes can are changed
 # Cautions
 Since `id` attribute is removed on the new input which is displayed on your page (the clone input) and `type` changed into `number`, ensure your original input style is not only based on it `id` (mean `#yourInputId {...}` in your *css* file), same for the `type` attribue (mean `input[type="yourOriginalType"] {...}` or in this particular case ensure both rules are applied on `input[type=["number"]`. If you use basically some toolkit such as *Bootstrap*, you don't have to care about that.
 
+# See it in action
+See it in cation via this link https://codepen.io/achenguikemo/project/editor/XRGOOj
 
 ENJOY :-)
