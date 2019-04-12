@@ -1,3 +1,4 @@
+import * as $ from 'jquery'
 /**
  * This class handle all that concern this plugin
  */
