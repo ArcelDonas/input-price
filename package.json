@@ -15,12 +15,27 @@
   },
   "keywords": [
     "jquery-plugin",
-    "ecosystem:jquery"
+    "ecosystem:jquery",
+    "javascript",
+    "plugin",
+    "input",
+    "format-price"
   ],
-  "author": "ACHENGUI KEMO",
+  "author": {
+    "name": "ACHENGUI KEMO Arcel Donas",
+    "email": "arceldonas64@gmail.com",
+    "url": "https://www.linkedin.com/in/achengui-kemo/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ArcelDonas/input-price/issues"
   },
-  "homepage": "https://github.com/ArcelDonas/input-price#readme"
+  "homepage": "https://github.com/ArcelDonas/input-price#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.2.1"
+  },
+  "files": [
+    "inputPrice.js"
+  ]
 }
