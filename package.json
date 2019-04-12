@@ -1,0 +1,26 @@
+{
+  "name": "ak_price_input",
+  "version": "1.0.0",
+  "description": "This helps you to format your prices into an input and when asked, it retrieves the price into the correct form. For instance if user type (or is passed dynamicaly to the input) 2500000000, this plugin displays 2 500 000 000 (if seperator is ' ') and when the input value is required, the plugin retrives 2500000000",
+  "main": "inputPrice.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcelDonas/input-price.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "ACHENGUI KEMO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArcelDonas/input-price/issues"
+  },
+  "homepage": "https://github.com/ArcelDonas/input-price#readme"
+}
